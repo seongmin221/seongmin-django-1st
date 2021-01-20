@@ -5,4 +5,5 @@ urlpatterns = [
     path('', views.index),
     path('test', views.test),
     path('signup', views.signup),
+    path('gugu', views.gu),
 ]
