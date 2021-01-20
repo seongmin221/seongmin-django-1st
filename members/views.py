@@ -27,7 +27,7 @@ def signup(req):
         member.save()
 
         res_data = {}
-        res_data['res'] = '등록성공'
+        res_data['res'] = '등록됨'
 
         return render(req, 'index.html', res_data)
 
